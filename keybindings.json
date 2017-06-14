@@ -1,0 +1,27 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "shift+cmd+w",
+    "command": "workbench.action.closeAllEditors"
+  },
+  {
+    "key": "cmd+k cmd+w",
+    "command": "-workbench.action.closeAllEditors"
+  },
+  {
+    "key": "cmd+o",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+o",
+    "command": "-workbench.action.files.openFileFolder"
+  },
+  {
+    "key": "f5",
+    "command": "editor.action.sortLinesAscending"
+  },
+  {
+    "key": "shift+cmd+e",
+    "command": "workbench.files.action.collapseExplorerFolders"
+  }
+]

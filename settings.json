@@ -1,0 +1,63 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Source Code Pro",
+    "workbench.colorTheme": "Sunburst",
+    "editor.tabSize": 2,
+    "git.confirmSync": false,
+    "files.associations": {
+        "glide.lock": "yaml"
+    },
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnPaste": true,
+    "editor.fontWeight": "400",
+    "editor.scrollBeyondLastLine": false,
+    "editor.rulers": [
+        80,
+        100
+    ],
+    "cSpell.words": [
+        "Kubernetes",
+        "kube",
+        "musta",
+        "airbnb",
+        "logrus",
+        "repo",
+        "init"
+    ],
+    "cSpell.ignoreRegExpList": [
+        "<?[\\w.\\-+]+@\\w+(\\.\\w+)+>?",
+        "<?\\w+(\\.\\w+)+>?"
+        // "<?import>?"
+    ],
+    "cSpell.userWords": [
+        "metav",
+        "byolken",
+        "unencrypted",
+        "deployboard",
+        "Datadog",
+        "RESQUE",
+        "structs",
+        "nginx",
+        "Deployer"
+    ],
+    "cSpell.enabledLanguageIds": [
+        "c",
+        "cpp",
+        "csharp",
+        "go",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "latex",
+        "markdown",
+        "php",
+        "plaintext",
+        "python",
+        "ruby",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yml"
+    ],
+    "files.insertFinalNewline": true
+}
