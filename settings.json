@@ -5,7 +5,9 @@
     "editor.tabSize": 2,
     "git.confirmSync": false,
     "files.associations": {
-        "glide.lock": "yaml"
+        "dockerfile.go": "go",
+        "dockerfile_test.go": "go",
+        "config": "yaml"
     },
     "files.trimTrailingWhitespace": true,
     "editor.formatOnPaste": true,
@@ -38,7 +40,10 @@
         "RESQUE",
         "structs",
         "nginx",
-        "Deployer"
+        "Deployer",
+        "kubectl",
+        "kubelet",
+        "hostnames"
     ],
     "cSpell.enabledLanguageIds": [
         "c",
@@ -59,5 +64,18 @@
         "typescriptreact",
         "yml"
     ],
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "search.useIgnoreFilesByDefault": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/vendor": false
+    },
+    "editor.formatOnType": true,
+    "window.reopenFolders": "all",
+    "window.newWindowDimensions": "maximized",
+    "window.nativeTabs": true,
+    "yaml.maxValidationIssues": 0,
+    "files.eol": "\n"
 }
