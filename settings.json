@@ -77,5 +77,7 @@
     "window.newWindowDimensions": "maximized",
     "window.nativeTabs": true,
     "yaml.maxValidationIssues": 0,
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "window.zoomLevel": 0,
+    "editor.wordWrap": "on"
 }
