@@ -79,5 +79,5 @@
     "yaml.maxValidationIssues": 0,
     "files.eol": "\n",
     "window.zoomLevel": 0,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "off"
 }
