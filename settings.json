@@ -70,7 +70,10 @@
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
-        "**/vendor": false
+        "**/vendor": false,
+        "**/tmp": true,
+        "**/public/packs": true,
+        "**/public/card_images": true,
     },
     "editor.formatOnType": true,
     "window.reopenFolders": "all",
