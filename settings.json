@@ -85,5 +85,6 @@
     "editor.wordWrap": "off",
     "files.exclude": {
         "**/bazel-*": true,
-    }
+    },
+    "sublimeTextKeymap.promptV3Features": true
 }
