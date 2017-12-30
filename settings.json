@@ -86,5 +86,15 @@
     "files.exclude": {
         "**/bazel-*": true,
     },
-    "sublimeTextKeymap.promptV3Features": true
+    "sublimeTextKeymap.promptV3Features": true,
+    "eslint.run": "onType",
+    "eslint.autoFixOnSave": true,
+    "eslint.packageManager": "yarn",
+    "ruby.rubocop.onSave": false,
+    "ruby.lint": {
+        "rubocop": true,
+        "ruby": {
+            "unicode": true //Runs ruby -wc -Ku
+        },
+    }
 }
