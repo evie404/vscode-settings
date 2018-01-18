@@ -82,7 +82,7 @@
     "yaml.maxValidationIssues": 0,
     "files.eol": "\n",
     "window.zoomLevel": 0,
-    "editor.wordWrap": "off",
+    "editor.wordWrap": "wordWrapColumn",
     "files.exclude": {
         "**/bazel-*": true,
     },
@@ -96,5 +96,8 @@
         "ruby": {
             "unicode": true //Runs ruby -wc -Ku
         },
-    }
+    },
+    "go.autocompleteUnimportedPackages": true,
+    "explorer.confirmDragAndDrop": false,
+    "go.testOnSave": true
 }

@@ -23,5 +23,13 @@
   {
     "key": "shift+cmd+e",
     "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "shift+cmd+y",
+    "command": "extension.railsGoToSpec",
+  },
+  {
+    "key": "shift+cmd+y",
+    "command": "go.toggle.test.file"
   }
 ]
