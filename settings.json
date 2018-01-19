@@ -82,7 +82,7 @@
     "yaml.maxValidationIssues": 0,
     "files.eol": "\n",
     "window.zoomLevel": 0,
-    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrap": "off",
     "files.exclude": {
         "**/bazel-*": true,
     },
