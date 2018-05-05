@@ -7,7 +7,8 @@
     "files.associations": {
         "dockerfile.go": "go",
         "dockerfile_test.go": "go",
-        "config": "yaml"
+        "config": "yaml",
+        "*.sql": "sql"
     },
     "files.trimTrailingWhitespace": true,
     "editor.formatOnPaste": true,
@@ -99,5 +100,8 @@
     },
     "go.autocompleteUnimportedPackages": true,
     "explorer.confirmDragAndDrop": false,
-    "go.testOnSave": true
+    "go.testOnSave": true,
+    "extensions.ignoreRecommendations": false,
+    "go.lintTool": "golint",
+    "workbench.editor.showTabs": true
 }
