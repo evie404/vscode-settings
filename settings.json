@@ -33,18 +33,20 @@
         // "<?import>?"
     ],
     "cSpell.userWords": [
-        "metav",
-        "byolken",
-        "unencrypted",
-        "deployboard",
         "Datadog",
-        "RESQUE",
-        "structs",
-        "nginx",
         "Deployer",
+        "RESQUE",
+        "backend",
+        "byolken",
+        "deployboard",
+        "favoriting",
+        "hostnames",
         "kubectl",
         "kubelet",
-        "hostnames"
+        "metav",
+        "nginx",
+        "structs",
+        "unencrypted"
     ],
     "cSpell.enabledLanguageIds": [
         "c",
