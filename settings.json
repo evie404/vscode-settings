@@ -105,5 +105,5 @@
     "go.testOnSave": true,
     "extensions.ignoreRecommendations": false,
     "go.lintTool": "golint",
-    "workbench.editor.showTabs": true
+    "workbench.editor.showTabs": true,
 }
