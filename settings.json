@@ -129,4 +129,9 @@
     "extensions.ignoreRecommendations": false,
     "go.lintTool": "golint",
     "workbench.editor.showTabs": true,
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true
+    },
+    "editor.formatOnSave": false,
 }
