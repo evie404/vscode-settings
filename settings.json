@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "Source Code Pro",
+    "editor.fontFamily": "Fantasque Sans Mono",
     "workbench.colorTheme": "Sunburst",
     "editor.tabSize": 2,
     "git.confirmSync": false,
