@@ -153,4 +153,5 @@
         "editor.formatOnSave": true
     },
     "editor.formatOnSave": false,
+    "java.errors.incompleteClasspath.severity": "ignore",
 }
