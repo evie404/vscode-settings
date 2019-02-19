@@ -8,7 +8,8 @@
         "dockerfile.go": "go",
         "dockerfile_test.go": "go",
         "config": "yaml",
-        "*.sql": "sql"
+        "*.sql": "sql",
+        "*.yaml.template": "helm"
     },
     "files.trimTrailingWhitespace": true,
     "editor.formatOnPaste": true,
