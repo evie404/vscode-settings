@@ -139,7 +139,7 @@
     "ruby.lint": {
         "rubocop": true,
         "ruby": {
-            "unicode": true //Runs ruby -wc -Ku
+            "unicode": true // Runs ruby -wc -Ku
         },
     },
     "go.autocompleteUnimportedPackages": true,
