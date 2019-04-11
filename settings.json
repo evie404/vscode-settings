@@ -9,8 +9,13 @@
         "dockerfile_test.go": "go",
         "config": "yaml",
         "*.sql": "sql",
-        "*.yaml.template": "helm"
+        "*.yaml.template": "helm",
+        ".bazelrc": "shellscript",
+        "*.gvpr": "perl"
     },
+    "shellcheck.exclude": [
+        ".bazelrc"
+    ],
     "files.trimTrailingWhitespace": true,
     "editor.formatOnPaste": true,
     "editor.fontWeight": "400",
@@ -79,7 +84,9 @@
         "roadmap",
         "rosco",
         "seasug",
+        "sharded",
         "skylib",
+        "statter",
         "structs",
         "tcpdump",
         "toolchain",
@@ -154,4 +161,6 @@
     },
     "editor.formatOnSave": false,
     "java.errors.incompleteClasspath.severity": "ignore",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }
