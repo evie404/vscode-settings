@@ -11,10 +11,12 @@
         "*.sql": "sql",
         "*.yaml.template": "helm",
         ".bazelrc": "shellscript",
-        "*.gvpr": "perl"
+        "bazel.rc": "shellscript",
+        "*.gvpr": "c"
     },
     "shellcheck.exclude": [
-        ".bazelrc"
+        ".bazelrc",
+        "bazel.rc"
     ],
     "files.trimTrailingWhitespace": true,
     "editor.formatOnPaste": true,
@@ -38,6 +40,7 @@
         "Kubernetes",
         "PIIs",
         "RESQUE",
+        "Repost",
         "Reposted",
         "Reposts",
         "Uploader",
@@ -163,4 +166,5 @@
     "java.errors.incompleteClasspath.severity": "ignore",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
 }
