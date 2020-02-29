@@ -164,7 +164,9 @@
     "workbench.editor.showTabs": true,
     "[go]": {
         "editor.insertSpaces": false,
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.buildOnSave": false,
+        "editor.testOnSave": false
     },
     "editor.formatOnSave": false,
     "java.errors.incompleteClasspath.severity": "ignore",
