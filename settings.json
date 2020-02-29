@@ -32,12 +32,15 @@
         // "<?import>?"
     ],
     "cSpell.userWords": [
+        "APNS",
         "Bazel",
         "Datadog",
         "Deployer",
         "Devops",
         "GDPR",
+        "Istio",
         "Kubernetes",
+        "Oplog",
         "PIIs",
         "RESQUE",
         "Repost",
@@ -55,6 +58,7 @@
         "comparator",
         "copypasta",
         "curation",
+        "datastore",
         "debuggability",
         "deployboard",
         "diffy",
