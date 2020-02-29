@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "Fantasque Sans Mono",
+    "editor.fontFamily": "Fantasque Sans Mono, BF Tiny Hand",
     "workbench.colorTheme": "Sunburst",
     "editor.tabSize": 2,
     "git.confirmSync": false,
