@@ -173,5 +173,12 @@
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.jediEnabled": false,
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": false,
+    "[Log]": {
+        "editor.wordWrap": "off"
+    },
+    "bazel.buildifierExecutable": "/Users/ricky/workspace/bin/buildifier",
+    "bazel.buildifierFixOnFormat": true
 }
