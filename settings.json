@@ -12,7 +12,8 @@
         "*.yaml.template": "helm",
         ".bazelrc": "shellscript",
         "bazel.rc": "shellscript",
-        "*.gvpr": "c"
+        "*.gvpr": "c",
+        "*Fastfile": "ruby"
     },
     "shellcheck.exclude": [
         ".bazelrc",
