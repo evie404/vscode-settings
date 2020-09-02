@@ -141,7 +141,7 @@
     "window.nativeTabs": true,
     "yaml.maxValidationIssues": 0,
     "files.eol": "\n",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 2,
     "editor.wordWrap": "off",
     "files.exclude": {
         "**/bazel-*": true,
@@ -169,17 +169,21 @@
         "editor.buildOnSave": false,
         "editor.testOnSave": false
     },
+    "[sql]": {
+        "editor.formatOnSave": false
+    }
     "editor.formatOnSave": false,
     "java.errors.incompleteClasspath.severity": "ignore",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "python.jediEnabled": false,
     "telemetry.enableTelemetry": false,
+    "explorer.confirmDelete": false,
     "go.formatTool": "goimports",
     "go.useLanguageServer": false,
     "[Log]": {
         "editor.wordWrap": "off"
     },
-    "bazel.buildifierExecutable": "/Users/ricky/workspace/bin/buildifier",
-    "bazel.buildifierFixOnFormat": true
+    "bazel.buildifierFixOnFormat": true,
+    "python.languageServer": "Microsoft"
 }
