@@ -172,7 +172,7 @@
     },
     "[sql]": {
         "editor.formatOnSave": false
-    }
+    },
     "editor.formatOnSave": false,
     "java.errors.incompleteClasspath.severity": "ignore",
     "editor.suggestSelection": "first",
