@@ -5,11 +5,19 @@
     "command": "workbench.action.closeAllEditors"
   },
   {
+    "key": "shift+ctrl+w",
+    "command": "workbench.action.closeAllEditors"
+  },
+  {
     "key": "cmd+k cmd+w",
     "command": "-workbench.action.closeAllEditors"
   },
   {
     "key": "cmd+o",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+o",
     "command": "workbench.action.quickOpen"
   },
   {
@@ -25,11 +33,38 @@
     "command": "workbench.files.action.collapseExplorerFolders"
   },
   {
-    "key": "shift+cmd+y",
-    "command": "extension.railsGoToSpec",
+    "key": "ctrl+e",
+    "command": "workbench.files.action.collapseExplorerFolders"
   },
   {
-    "key": "shift+cmd+y",
-    "command": "go.toggle.test.file"
+    "key": "ctrl+o",
+    "command": "-workbench.action.files.openFile"
+  },
+  {
+    "key": "enter",
+    "command": "renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "f2",
+    "command": "-renameFile",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "ctrl+shift+w",
+    "command": "-workbench.action.closeWindow"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+    "when": "inFilesPicker && inQuickOpen"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
   }
 ]
