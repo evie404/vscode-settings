@@ -13,7 +13,8 @@
         ".bazelrc": "shellscript",
         "bazel.rc": "shellscript",
         "*.gvpr": "c",
-        "*Fastfile": "ruby"
+        "*Fastfile": "ruby",
+        "*Matchfile": "ruby"
     },
     "shellcheck.exclude": [
         ".bazelrc",
